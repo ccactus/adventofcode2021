@@ -16,15 +16,7 @@ measurement before the fist one)
 
 import (
 	"fmt"
-	"os"
 )
-
-func checkErr(err error) {
-	if err != nil {
-		fmt.Println("Error! %s", err)
-		os.Exit(3)
-	}
-}
 
 func checkIncrease(a int, b int) int {
 	if a < b {
